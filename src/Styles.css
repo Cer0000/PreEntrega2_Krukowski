@@ -17,3 +17,7 @@ nav ul{
 .Cart {
     color: aliceblue;
 }
+.Cart:hover{
+    color: #2d94fb;
+    transition: .2s;
+}
