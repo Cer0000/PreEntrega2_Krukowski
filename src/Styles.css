@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 3rem;
+    background: #1e1e1e;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+.Cart {
+    color: aliceblue;
+}
