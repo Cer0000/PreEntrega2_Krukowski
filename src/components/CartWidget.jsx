@@ -15,7 +15,7 @@ const CartWidget = () => {
     return (
         <IconButton>
             <ShoppingCartIcon className='Cart' fontSize="large" />
-            <CartBadge badgeContent={0} color="primary" overlap="circular" />
+            <CartBadge badgeContent={1} color="primary" overlap="circular" />
         </IconButton>
     )
 }

@@ -21,3 +21,11 @@ nav ul{
     color: #2d94fb;
     transition: .2s;
 }
+
+.itemListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-size: 2rem;
+}
