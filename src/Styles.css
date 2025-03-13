@@ -2,6 +2,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
     padding: 2rem;
     height: 3rem;
     background: #1e1e1e;
@@ -22,10 +24,51 @@ nav ul{
     transition: .2s;
 }
 
-.itemListContainer{
-    display: flex;
-    align-items: center;
+.product-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 15px;
+    margin: 1rem;
     justify-content: center;
-    height: 80vh;
-    font-size: 2rem;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.product-img{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.detali-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    width: 400px;
+    height: 700px;
+}
+
+.detali-cont h2{
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.detali-cont img{
+    width: 300px;
+}
+
+.detali-cont p{
+    color: #000;
+    font-weight: 700;
 }
