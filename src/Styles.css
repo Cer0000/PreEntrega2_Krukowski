@@ -41,12 +41,32 @@ nav ul{
     background: #fff;
     color: #000;
     border-radius: 10px;
-    height: 400px;
+    height: 450px;
 }
 
 .product-img{
     max-height: 200px;
     max-width: 200px;
+}
+
+.add-to-cart{
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    background: #2d94fb;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.add-to-cart:hover{
+    background: #1d8af7;
+}
+
+.add-to-cart:active{
+    background: #1d8af7;
+    transform: scale(.9);
+    transition: .3s;
 }
 
 .detali-cont{
